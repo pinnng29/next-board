@@ -63,7 +63,7 @@ export const Info = ({ boardId }: InfoProps) => {
                 font.className
               )}
             >
-              Board
+              Board Ping
             </span>
           </Link>
         </Button>
