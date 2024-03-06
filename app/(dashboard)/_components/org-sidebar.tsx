@@ -20,7 +20,7 @@ export const OrgSidebar = () => {
   const favorites = searchParams.get("favorites");
 
   return (
-    <div className="hidden lg:flex flex-col space-y-6 w-[160px] pl-5 pt-5">
+    <div className="hidden lg:flex flex-col space-y-6 w-[200px] pl-5 pt-5">
       <Link href={'/'}>
         <div className="flex items-center gap-x-2">
           <Image
@@ -30,7 +30,7 @@ export const OrgSidebar = () => {
             height={60}
           />
           <span className={cn('font-semibold text-2xl', font.className)}>
-            Board
+            Board Ping
           </span>
         </div>
       </Link>

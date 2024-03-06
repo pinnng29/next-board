@@ -90,8 +90,15 @@ export const Info = ({ boardId }: InfoProps) => {
         sideOffset={10}
       >
         <div>
-          <Hint label='Main menu' side='bottom' sideOffset={10}>
-            <Button size={'icon'} variant={'board'}>
+          <Hint
+            label="Main menu"
+            side="bottom"
+            sideOffset={10}
+          >
+            <Button
+              size={'icon'}
+              variant={'board'}
+            >
               <Menu />
             </Button>
           </Hint>
@@ -103,6 +110,8 @@ export const Info = ({ boardId }: InfoProps) => {
 
 export const InfoSkeleton = () => {
   return (
-    <div className="absolute top-2 left-2 bg-white rounded-md px-1.5 h-12 flex items-center shadow-md w-[300px]" />
+    <div 
+      className="absolute top-2 left-2 bg-white rounded-md px-1.5 h-12 flex items-center shadow-md w-[300px]" 
+    />
   );
 };
